@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-image: url(../Image/pexels-alexander-ant-4585185.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu-h{
+    top: 0;
+    position: fixed;
+    list-style: none;
+    padding: none;
+    background-color: rgb(5, 5, 5);
+    overflow: hidden;
+    width: 100%;
+    
+
+}
+
+
+#menu-h li{
+    display: inline;
+}
+.menu-h li:hover{
+    opacity: 0.7;
+}
+
+#menu-h li a{
+    background-color: black;
+    color: #fff; 
+    padding: 20px;  
+    display: inline-block;   
+    text-decoration: none;
+    
+    
+    
+    
+}
+.sobre-mim{
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    border-radius: 10%;
+    background-color: bisque;
+    margin: 60ch;
+   padding-top: 80px;
+}
+
+div .sobre-mim{
+    width: 20px;
+    height: 20px;
+    }
+.escolaridade{
+    border: 1px solid red;
+    margin: 60ch;
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color: bisque;
+    padding-top: 80px;
+}
+
+.recursos-tecnicos{
+    border: 1px solid red;
+    margin: 60ch;
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color: bisque;
+    padding-top: 80px;
+}
+
+.trabalho{
+    border: 1px solid red;
+    margin: 60ch;
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color: bisque;
+    padding-top: 80px;
+}
+
+.contato{
+    border: 1px solid red;
+    margin: 60ch;
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: bisque;
+    padding-top: 80px;
+}
+
+#menu-h li a :hover{
+    background-color: aqua;
+}
+@media screen and (max-width:800px){
+    body{
+        overflow:hidden;
+    }
+    .escolaridade{
+        margin-left: 25vw!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sobre-mim{
+        margin-left: 25vw!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .escolaridade{
+        margin-left: 25vw!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .escolaridade{
+        margin-left: 25vw!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
